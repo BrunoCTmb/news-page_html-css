@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter-regular;
+}
+
+body {
+    padding: 60px 100px;
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+
+/* *** HEADER *** */
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-title {
+    font-size: 25pt;
+    font-family: inter-extra-bold;
+    font-style: oblique;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-link {
+    color: #0000008f;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    font-size: 10pt;
+    font-weight: ;
+}
+
+#nav-link:hover {
+    color: brown;
+    transition: 0.3s;
+}
+
+/* *** MAIN CONTENT *** */
+
+/* conteudo principal - parte esquerda */
+
+.call-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.left-call-main {
+    width: 72%;
+    margin-right: 3%;
+}
+
+#main-image {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.content-read-more {
+    display: flex;
+}
+
+.l-content-read-more {
+    width: 38%;
+    margin-right: 4%;
+}
+
+.r-content-read-more {
+    width: 58%;
+}
+
+.l-content-read-more h2 {
+    font-family: inter-bold;
+    font-size: 28pt;
+}
+
+.r-content-read-more p {
+    color: #0000008f;
+    margin-bottom: 46px;
+}
+
+.r-content-read-more a {
+    background-color: #ec4343d5;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-family: inter-bold;
+    font-size: 10pt;
+    letter-spacing: 2px;
+}
+
+/* conteudo principal - parte direita */
+.right-call-main {
+    background-color: rgb(1, 4, 34);
+    width: 25%;
+    padding: 25px;
+}
+
+.right-call-main h2 {
+    display: flex;
+    margin-bottom: 20px;
+    font-family: inter-bold;
+    font-size: 25pt;
+    color: #ffdc68da;
+    
+}
+
+.right-call-main a {
+    font-family: inter-bold;
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.right-call-main a:hover {
+    color: #ffdc68da;
+}
+
+.right-call-main p {
+    color: #ffffff8c;
+    font-size: 11pt;
+}
+
+hr {
+    margin: 30px 0;
+    width: 100%;
+}
+
+/* *** SECUNDARY CONTENT *** */
+.content-links {
+    display: none;
+}
