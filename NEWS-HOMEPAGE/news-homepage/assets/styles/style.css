@@ -6,9 +6,9 @@
 }
 
 body {
-    padding: 60px 100px;
+    padding: 60px 150px;
     margin: 0 auto;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 /* *** HEADER *** */
@@ -37,7 +37,6 @@ body {
     list-style: none;
     margin-left: 20px;
     font-size: 10pt;
-    font-weight: ;
 }
 
 #nav-link:hover {
@@ -63,6 +62,7 @@ body {
 
 #main-image {
     width: 100%;
+    /* height: 250px; */
     margin-bottom: 18px;
 }
 
@@ -102,10 +102,13 @@ body {
 
 .r-content-read-more a:hover {
     background-color: #010422;
+    transition: 0.3s;
 }
 
 /* conteudo principal - parte direita */
 .right-call-main {
+    display: flex;
+    flex-direction: column;
     background-color: #010422;
     width: 25%;
     padding: 25px;
@@ -129,6 +132,7 @@ body {
 
 .right-call-main a:hover {
     color: #ffdc68da;
+    transition: 0.2s;
 }
 
 .right-call-main p {
@@ -144,5 +148,40 @@ hr {
 
 /* *** SECUNDARY CONTENT *** */
 .content-links {
-    display: none;
+    display: flex;
+    margin-top: 60px;
+}
+
+.content1, .content2, .content3 {
+    display: flex;   
+    margin-right: 20px;
+}
+
+.content-links img {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.content-links h3 {
+    color: #9b9b9bab;
+    font-family: inter-bold;
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
+
+.content-links a {
+    color: #010422;
+    text-decoration: none;
+    font-family: inter-bold;
+    margin: 10px 0;
+}
+
+.content-links a:hover {
+    color: #ec4343d5;
+    transition: 0.2s;
+}
+
+.content-links p {
+    margin-top: 10px;
+    color: #0000008f;
 }
