@@ -26,6 +26,11 @@ body {
     font-style: oblique;
 }
 
+.nav-menu {
+    display: none;
+    cursor: pointer;
+}
+
 .nav-links {
     display: flex;
     flex-direction: row;
@@ -56,7 +61,7 @@ body {
 }
 
 .left-call-main {
-    width: 72%;
+    width: 62%;
     margin-right: 3%;
 }
 
@@ -110,7 +115,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #010422;
-    width: 25%;
+    width: 35%;
     padding: 25px;
 }
 
@@ -152,8 +157,9 @@ hr {
     margin-top: 60px;
 }
 
-.content1, .content2, .content3 {
-    display: flex;   
+.content{
+    display: flex;
+    flex-grow: 1;
     margin-right: 20px;
 }
 
@@ -177,6 +183,7 @@ hr {
 }
 
 .content-links a:hover {
+
     color: #ec4343d5;
     transition: 0.2s;
 }
